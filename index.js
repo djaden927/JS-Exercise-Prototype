@@ -115,10 +115,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Global binding - it seems like it's an error in essence, you haven't properly contextualized this.
+    2. implicit binding, the most common. the object to the left of the dot, to me it just feels like the natural choice.
+    3. new binding. when using the new keyword for a constructor function, the this keyword is bound the obj created.
+    4. explicit binding, overriding in a sense, whenever you use .call, .apply, .bind this will apply. 
   */
   
   
